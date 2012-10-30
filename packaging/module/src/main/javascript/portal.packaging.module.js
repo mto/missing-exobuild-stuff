@@ -81,7 +81,7 @@ function getModule(params)
 
    if(eXo.server.Tomcat || eXo.server.Jboss || eXo.server.JbossEar)
    {
-     module.component.pc.addDependency(new Project("org.gatein.wci", "wci-tomcat6", "jar", wciVersion));
+     module.component.pc.addDependency(new Project("org.gatein.wci", "wci-tomcat7", "jar", wciVersion));
    }
 
 

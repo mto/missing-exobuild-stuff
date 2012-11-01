@@ -74,7 +74,6 @@ function getModule(params)
       addDependency(new Project("org.gatein.common", "common-common", "jar", commonVersion)).
       addDependency(new Project("log4j", "log4j", "jar", "1.2.14")).
       addDependency(new Project("org.jboss", "jbossxb", "jar", "2.0.1.GA")).
-      addDependency(new Project("org.jboss.logging", "jboss-logging-spi", "jar", "2.0.5.GA")).
       addDependency(new Project("org.apache.portals.bridges", "portals-bridges-common", "jar", "1.0.4")).
       addDependency(new Project("org.jboss", "jboss-common-core", "jar", "2.2.9.GA"));
 
